@@ -1,0 +1,29 @@
+name: garry_potter_novel
+description: Garry Potter Novel
+
+publish_to:
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  # http
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  # test
+  test: ^1.24.1
+
+flutter:
+
+  uses-material-design: true
